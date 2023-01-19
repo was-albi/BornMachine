@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: shared-memory38
+Version: 0.1.2
+Summary: Backport of multiprocessing.shared_memory in Python 3.8
+Home-page: https://github.com/mars-project/shared_memory38
+Author: Wenjun Si
+Author-email: swj0066@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/x-rst
+
+Backport of ``multiprocessing.shared_memory`` for Python 3.6 and 3.7. Simply import all things from ``shared_memory`` to make your code work. 
+
+Note that ``multiprocessing.managers.SharedMemoryManager`` is also included under ``shared_memory`` package.
+
+
